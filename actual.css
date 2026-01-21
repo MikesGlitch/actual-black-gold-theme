@@ -195,12 +195,20 @@
     --color-pillTextSelected: #ffd700;
     --color-pillTextSubdued: #4d5768;
 
+    /* Some of these aren't used any more  */
     --color-reportsBlue: #C2A23A;
     --color-reportsGray: #9ca5b2;
     --color-reportsGreen: #ffd700;
     --color-reportsInnerLabel: #050505;
     --color-reportsLabel: #e8ecf0;
-    --color-reportsRed: #f86a6a;
+    --color-reportsRed: #f86a6a; 
+    
+    /* These are all used */
+    --color-reportsChartFill: #C2A23A;
+    --color-reportsNumberPositive: #C2A23A;
+    --color-reportsNumberNegative: #f86a6a;
+    --color-reportsNumberNeutral: #e8ecf0;
+
     
     --color-sidebarBackground: #080811;
     --color-sidebarBudgetName: #e8ecf0;
