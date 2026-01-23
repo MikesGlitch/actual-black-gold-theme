@@ -21,6 +21,11 @@
     white-3 : #bdc5cf
     white-4 : #9ca5b2
     white-5 : #4d5768
+
+    red-1 (near white red): #ffdede
+    red-2 (Crimson Flame): #f86a6a
+    red-3 (Ruby Ashes): #e12d39
+    red-4 (Garnet Embers): #8a041a
     */
 
     --color-budgetCurrentMonth: #141520;
@@ -28,8 +33,8 @@
     --color-budgetHeaderOtherMonth: #1c1e29;
     --color-budgetOtherMonth: #242733;
     --color-buttonBareBackground: transparent;
-    --color-buttonBareBackgroundActive: rgba(200, 200, 200, .5);
-    --color-buttonBareBackgroundHover: rgba(200, 200, 200, .3);
+    --color-buttonBareBackgroundActive: #373B4A;
+    --color-buttonBareBackgroundHover: #242733;
     --color-buttonBareDisabledBackground: transparent;
     --color-buttonBareDisabledText: #9ca5b2;
     --color-buttonBareText: #d4dae0;
@@ -57,7 +62,7 @@
     --color-buttonNormalTextHover: #d4dae0;
 
     --color-buttonPrimaryBackground: #ffd700;
-    --color-buttonPrimaryBackgroundHover: #E6C200;
+    --color-buttonPrimaryBackgroundHover: #B89B30;
     --color-buttonPrimaryBorder: #ffd700;
     --color-buttonPrimaryDisabledBackground: #242733;
     --color-buttonPrimaryDisabledBorder: #242733;
@@ -86,7 +91,7 @@
 
     --color-errorBackground: #8a041a;
     --color-errorBorder: #e12d39;
-    --color-errorText: #E8ECF0;
+    --color-errorText: #ffdede;
     --color-errorTextDark: #E8ECF0;
     --color-errorTextDarker: #E8ECF0;
     --color-errorTextMenu: #E8ECF0;
@@ -122,7 +127,7 @@
     --color-menuAutoCompleteItemTextHover: #f6f8fa;
     --color-menuAutoCompleteText: #e8ecf0;
     --color-menuAutoCompleteTextHeader: #ffd700;
-    --color-menuAutoCompleteTextHover: #014d40;
+    --color-menuAutoCompleteTextHover: #ffd700;
     --color-menuBackground: #242733;
     --color-menuBorder: #141520;
     --color-menuBorderHover: #ffd700;
@@ -254,4 +259,8 @@
     --color-warningText: #E8ECF0;
     --color-warningTextDark: #fffbea;
     --color-warningTextLight: #e6bb20;
+
+    --color-numberNegative: #f86a6a;
+    --color-numberNeutral: #e8ecf0;
+    --color-numberPositive: #ffd700;
 }
