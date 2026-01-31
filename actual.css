@@ -32,6 +32,12 @@
     --color-budgetHeaderCurrentMonth: #080811;
     --color-budgetHeaderOtherMonth: #1c1e29;
     --color-budgetOtherMonth: #242733;
+
+    --color-budgetNumberPositive: #d4dae0;
+    --color-budgetNumberNegative: #f86a6a;
+    --color-budgetNumberNeutral: #d4dae0;
+    --color-budgetNumberZero: #4d5768;
+        
     --color-buttonBareBackground: transparent;
     --color-buttonBareBackgroundActive: #373B4A;
     --color-buttonBareBackgroundHover: #242733;
