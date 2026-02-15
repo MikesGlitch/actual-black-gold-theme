@@ -29,9 +29,9 @@
     */
 
     --color-budgetCurrentMonth: #141520;
-    --color-budgetHeaderCurrentMonth: #080811;
-    --color-budgetHeaderOtherMonth: #1c1e29;
-    --color-budgetOtherMonth: #242733;
+    --color-budgetHeaderCurrentMonth: #242733;
+    --color-budgetHeaderOtherMonth: #242733;
+    --color-budgetOtherMonth: #1A1A1A;
 
     --color-budgetNumberPositive: #d4dae0;
     --color-budgetNumberNegative: #f86a6a;
