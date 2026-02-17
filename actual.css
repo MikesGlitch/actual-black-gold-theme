@@ -1,4 +1,10 @@
 :root {
+
+    /* ============================================================
+       COLOUR PALETTE REFERENCE
+       Core design tokens used throughout the theme.
+       ============================================================ */
+
     /* 
     Vivid Gold: #ffd700;
     Gold-1 (soft gold): #C2A23A
@@ -28,16 +34,25 @@
     red-4 (Garnet Embers): #8a041a
     */
 
+    /* ============================================================
+       BUDGET
+       Monthly budget view backgrounds and number formatting.
+       ============================================================ */
+
     --color-budgetCurrentMonth: #141520;
     --color-budgetHeaderCurrentMonth: #242733;
     --color-budgetHeaderOtherMonth: #242733;
     --color-budgetOtherMonth: #1A1A1A;
-
     --color-budgetNumberPositive: #d4dae0;
     --color-budgetNumberNegative: #f86a6a;
     --color-budgetNumberNeutral: #d4dae0;
     --color-budgetNumberZero: #4d5768;
-        
+
+    /* ============================================================
+       BUTTONS – BARE
+       Minimal / ghost-style buttons with no visible background.
+       ============================================================ */
+
     --color-buttonBareBackground: transparent;
     --color-buttonBareBackgroundActive: #373B4A;
     --color-buttonBareBackgroundHover: #242733;
@@ -45,6 +60,12 @@
     --color-buttonBareDisabledText: #9ca5b2;
     --color-buttonBareText: #d4dae0;
     --color-buttonBareTextHover: #d4dae0;
+
+    /* ============================================================
+       BUTTONS – MENU
+       Buttons used inside dropdown / context menus.
+       ============================================================ */
+
     --color-buttonMenuBackground: #242733;
     --color-buttonMenuBackgroundHover: rgba(200, 200, 200, .25);
     --color-buttonMenuBorder: #ffd700;
@@ -55,6 +76,12 @@
     --color-buttonMenuSelectedTextHover: #87540d;
     --color-buttonMenuText: #bdc5cf;
     --color-buttonMenuTextHover: #bdc5cf;
+
+    /* ============================================================
+       BUTTONS – NORMAL
+       Standard secondary action buttons.
+       ============================================================ */
+
     --color-buttonNormalBackground: #373b4a;
     --color-buttonNormalBackgroundHover: #242733;
     --color-buttonNormalBorder: #98a1ae;
@@ -67,6 +94,11 @@
     --color-buttonNormalText: #d4dae0;
     --color-buttonNormalTextHover: #d4dae0;
 
+    /* ============================================================
+       BUTTONS – PRIMARY
+       Main call-to-action buttons (gold accent).
+       ============================================================ */
+
     --color-buttonPrimaryBackground: #ffd700;
     --color-buttonPrimaryBackgroundHover: #B89B30;
     --color-buttonPrimaryBorder: #ffd700;
@@ -77,6 +109,11 @@
     --color-buttonPrimaryText: #1A1A1A;
     --color-buttonPrimaryTextHover: #1A1A1A;
 
+    /* ============================================================
+       CALENDAR
+       Date-picker and calendar widget colours.
+       ============================================================ */
+
     --color-calendarBackground: #141520;
     --color-calendarCellBackground: #373b4a;
     --color-calendarItemBackground: #373b4a;
@@ -84,9 +121,20 @@
     --color-calendarSelectedBackground: #8F7A20;
     --color-calendarText: #f6f8fa;
 
+    /* ============================================================
+       CARDS
+       Elevated container surfaces (e.g. account cards).
+       ============================================================ */
+
     --color-cardBackground: #141520;
     --color-cardBorder: #ffd700;
     --color-cardShadow: #080811;
+
+    /* ============================================================
+       CHECKBOXES & TOGGLES
+       Checkbox ticks and toggle-switch controls.
+       ============================================================ */
+
     --color-checkboxBackgroundSelected: #080811;
     --color-checkboxBorderSelected: #ffd700;
     --color-checkboxShadowSelected: #ffed4e;
@@ -95,6 +143,11 @@
     --color-checkboxToggleBackgroundSelected: #ffd700;
     --color-checkboxToggleDisabled: #242733;
 
+    /* ============================================================
+       ERRORS
+       Error banners, borders and text throughout the app.
+       ============================================================ */
+
     --color-errorBackground: #8a041a;
     --color-errorBorder: #e12d39;
     --color-errorText: #ffdede;
@@ -102,9 +155,19 @@
     --color-errorTextDarker: #E8ECF0;
     --color-errorTextMenu: #E8ECF0;
 
+    /* ============================================================
+       FLOATING ACTION BAR
+       Bottom toolbar for bulk-actions (e.g. multi-select).
+       ============================================================ */
+
     --color-floatingActionBarBackground: #080811;
     --color-floatingActionBarBorder: #ffd700;
     --color-floatingActionBarText: #ffd700;
+
+    /* ============================================================
+       FORM INPUTS
+       Text fields, dropdowns, and selection highlight colours.
+       ============================================================ */
 
     --color-formInputBackground: #141520;
     --color-formInputBackgroundSelected: #242733;
@@ -120,13 +183,28 @@
     --color-formInputTextSelected: #1A1A1A;
     --color-formInputTextSelection: #141520;
 
+    /* ============================================================
+       FORM LABELS
+       Labels that sit above or beside form inputs.
+       ============================================================ */
+
     --color-formLabelBackground: #1a1a00;
     --color-formLabelText: #ffd700;
+
+    /* ============================================================
+       MARKDOWN
+       Rendered markdown / notes styling.
+       ============================================================ */
 
     --color-markdownDark: #b8860b;
     --color-markdownLight: #1a1a00;
     --color-markdownNormal: #daa520;
-    
+
+    /* ============================================================
+       MENUS – AUTOCOMPLETE
+       Typeahead / autocomplete suggestion dropdowns.
+       ============================================================ */
+
     --color-menuAutoCompleteBackground: #373b4a;
     --color-menuAutoCompleteBackgroundHover: #4d5768;
     --color-menuAutoCompleteItemText: #e8ecf0;
@@ -134,10 +212,15 @@
     --color-menuAutoCompleteText: #e8ecf0;
     --color-menuAutoCompleteTextHeader: #ffd700;
     --color-menuAutoCompleteTextHover: #ffd700;
+
+    /* ============================================================
+       MENUS – GENERAL
+       Context menus, dropdowns, and menu item states.
+       ============================================================ */
+
     --color-menuBackground: #242733;
     --color-menuBorder: #141520;
     --color-menuBorderHover: #ffd700;
-
     --color-menuItemBackground: #bdc5cf;
     --color-menuItemBackgroundHover: #242733;
     --color-menuItemText: #e8ecf0;
@@ -145,6 +228,11 @@
     --color-menuItemTextHover: #f6f8fa;
     --color-menuItemTextSelected: #ffd700;
     --color-menuKeybindingText: #ffd700;
+
+    /* ============================================================
+       MOBILE
+       Mobile-specific header, navigation and page colours.
+       ============================================================ */
 
     --color-mobileAccountShadow: #080811;
     --color-mobileAccountText: #0b5fa3;
@@ -159,13 +247,29 @@
     --color-mobilePageBackground: #080811;
     --color-mobileTransactionSelected: #ffd700;
     --color-mobileViewTheme: #080811;
+
+    /* ============================================================
+       MODALS
+       Dialog / modal overlay containers.
+       ============================================================ */
+
     --color-modalBackground: #242733;
     --color-modalBorder: #bdc5cf;
-    
+
+    /* ============================================================
+       NOTE TAGS
+       Inline tags displayed on transaction notes.
+       ============================================================ */
+
     --color-noteTagBackground: #373b4a;
     --color-noteTagBackgroundHover: #373b4a;
     --color-noteTagDefault: #1a1a00;
     --color-noteTagText: #ffd700;
+
+    /* ============================================================
+       NOTICES
+       Informational banners and in-app notifications.
+       ============================================================ */
 
     --color-noticeBackground: #373b4a;
     --color-noticeBackgroundDark: #373b4a;
@@ -177,7 +281,17 @@
     --color-noticeTextMenu: #ffd700;
     --color-noticeTextMenuHover: #ffd700;
 
+    /* ============================================================
+       OVERLAY
+       Semi-transparent backdrop behind modals and drawers.
+       ============================================================ */
+
     --color-overlayBackground: rgba(0, 0, 0, 0.3);
+
+    /* ============================================================
+       PAGE – BACKGROUNDS
+       Main page canvas, gradients, and structural lines.
+       ============================================================ */
 
     --color-pageBackground: #262835;
     --color-pageBackgroundBottomRight: #242733;
@@ -187,6 +301,11 @@
     --color-pageBackgroundModalActive: #242733;
     --color-pageBackgroundTopLeft: #141520;
 
+    /* ============================================================
+       PAGE – TEXT
+       Body copy, links, and subdued text on pages.
+       ============================================================ */
+
     --color-pageText: #e8ecf0;
     --color-pageTextDark: #e8ecf0;
     --color-pageTextLight: #bdc5cf;
@@ -194,6 +313,11 @@
     --color-pageTextLinkLight: #ffed4e;
     --color-pageTextPositive: #ffd700;
     --color-pageTextSubdued: #9ca5b2;
+
+    /* ============================================================
+       PILLS
+       Small rounded labels / filter chips.
+       ============================================================ */
 
     --color-pillBackground: #373B4A;
     --color-pillBackgroundLight: #373b4a;
@@ -206,21 +330,33 @@
     --color-pillTextSelected: #ffd700;
     --color-pillTextSubdued: #4d5768;
 
-    /* Some of these aren't used any more  */
+    /* ============================================================
+       REPORTS – LEGACY (some of these aren't used any more)
+       Older report colour aliases kept for backward compatibility.
+       ============================================================ */
+
     --color-reportsBlue: #C2A23A;
     --color-reportsGray: #9ca5b2;
     --color-reportsGreen: #ffd700;
     --color-reportsInnerLabel: #050505;
     --color-reportsLabel: #e8ecf0;
-    --color-reportsRed: #f86a6a; 
-    
-    /* These are all used */
+    --color-reportsRed: #f86a6a;
+
+    /* ============================================================
+       REPORTS – CURRENT
+       Active report chart fill and number formatting.
+       ============================================================ */
+
     --color-reportsChartFill: #C2A23A;
     --color-reportsNumberPositive: #C2A23A;
     --color-reportsNumberNegative: #f86a6a;
     --color-reportsNumberNeutral: #e8ecf0;
 
-    
+    /* ============================================================
+       SIDEBAR
+       Left-hand navigation panel and account list.
+       ============================================================ */
+
     --color-sidebarBackground: #080811;
     --color-sidebarBudgetName: #e8ecf0;
     --color-sidebarItemAccentSelected: #ffd700;
@@ -231,6 +367,11 @@
     --color-sidebarItemText: #e8ecf0;
     --color-sidebarItemTextSelected: #ffd700;
 
+    /* ============================================================
+       TABLE
+       Transaction registers, data grids, and spreadsheet views.
+       ============================================================ */
+
     --color-tableBackground: #141520;
     --color-tableBorder: #373b4a;
     --color-tableBorderHover: #ffd700;
@@ -238,13 +379,11 @@
     --color-tableBorderSeparator: #9ca5b2;
     --color-tableHeaderBackground: #080811;
     --color-tableHeaderText: #bdc5cf;
-    
     --color-tableRowBackgroundHighlight: #4d5768;
     --color-tableRowBackgroundHighlightText: #d4dae0;
     --color-tableRowBackgroundHover: #262835;
     --color-tableRowHeaderBackground: #242733;
     --color-tableRowHeaderText: #d4dae0;
-
     --color-tableText: #d4dae0;
     --color-tableTextHover: #9ca5b2;
     --color-tableTextInactive: #9ca5b2;
@@ -252,13 +391,28 @@
     --color-tableTextSelected: #d4dae0;
     --color-tableTextSubdued: #4d5768;
 
+    /* ============================================================
+       TOOLTIPS
+       Small contextual popover hints.
+       ============================================================ */
+
     --color-tooltipBackground: #141520;
     --color-tooltipBorder: #373b4a;
     --color-tooltipText: #e8ecf0;
 
+    /* ============================================================
+       UPCOMING TRANSACTIONS
+       Scheduled / forecast transaction badges.
+       ============================================================ */
+
     --color-upcomingBackground: #373B4A;
     --color-upcomingBorder: #373B4A;
     --color-upcomingText: #ffd700;
+
+    /* ============================================================
+       WARNINGS
+       Warning banners and cautionary messaging.
+       ============================================================ */
 
     --color-warningBackground: #87540d;
     --color-warningBorder: #e6bb20;
@@ -266,11 +420,37 @@
     --color-warningTextDark: #fffbea;
     --color-warningTextLight: #e6bb20;
 
+    /* ============================================================
+       NUMBER FORMATTING
+       Positive / negative / neutral number colours used globally.
+       ============================================================ */
+
     --color-numberNegative: #f86a6a;
     --color-numberNeutral: #e8ecf0;
     --color-numberPositive: #ffd700;
-    
+
+    /* ============================================================
+       TO-BUDGET
+       "To Budget" / available amount indicator in the header.
+       ============================================================ */
+
     --color-toBudgetNegative: #f86a6a;
     --color-toBudgetZero: #e8ecf0;
     --color-toBudgetPositive: #ffd700;
+
+    /* ============================================================
+       CHART – QUALITATIVE PALETTE
+       Nine distinct colours for pie / bar chart segments.
+       Ordered for maximum contrast between adjacent slices.
+       ============================================================ */
+
+    --color-chartQual1: #C2A23A;
+    --color-chartQual2: #B86048;
+    --color-chartQual3: #70B898;
+    --color-chartQual4: #D898B0;
+    --color-chartQual5: #A8B848;
+    --color-chartQual6: #E8A458;
+    --color-chartQual7: #8898C0;
+    --color-chartQual8: #D0B888;
+    --color-chartQual9: #C07090;
 }
