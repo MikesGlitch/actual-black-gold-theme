@@ -369,6 +369,14 @@
     --color-sidebarItemTextSelected: #ffd700;
 
     /* ============================================================
+       Settings
+       Settings page
+       ============================================================ */
+    --color-settingsNavItemAccentSelected: #ffd700;
+    --color-settingsCardText: #ffffff;
+    --color-settingsCardTextSubdued: #bdc5cf;
+
+    /* ============================================================
        TABLE
        Transaction registers, data grids, and spreadsheet views.
        ============================================================ */
