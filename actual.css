@@ -33,6 +33,12 @@
     red-2 (Crimson Flame): #f86a6a
     red-3 (Ruby Ashes): #e12d39
     red-4 (Garnet Embers): #8a041a
+
+    orange-1 (near white orange): #fff1e6
+    orange-2 (Amber Dawn): #ffcf9e
+    orange-3 (Copper Flame): #f0944d
+    orange-4 (Rust Embers): #b85c1e
+    orange-5 (Umber Ashes): #6b3a14
     */
 
     /* ============================================================
@@ -48,6 +54,10 @@
     --color-budgetNumberNegative: #f86a6a;
     --color-budgetNumberNeutral: #d4dae0;
     --color-budgetNumberZero: #4d5768;
+
+    /* Budget Goal templates */
+    --color-templateNumberFunded: #ffd700;      
+    --color-templateNumberUnderFunded: #f0944d; 
 
     /* ============================================================
        BUTTONS – BARE
@@ -422,12 +432,13 @@
        WARNINGS
        Warning banners and cautionary messaging.
        ============================================================ */
+ 
+    --color-warningBackground: #6b3a14; /* orange-5 Umber Ashes */
+    --color-warningBorder: #f0944d;     /* orange-3 Copper Flame */
+    --color-warningText: #ffcf9e;       /* orange-2 Amber Dawn */
+    --color-warningTextLight: #f0944d;  /* orange-3 Copper Flame */
+    --color-warningTextDark: #fff1e6;   /* orange-1 near white orange */
 
-    --color-warningBackground: #87540d;
-    --color-warningBorder: #e6bb20;
-    --color-warningText: #E8ECF0;
-    --color-warningTextDark: #fffbea;
-    --color-warningTextLight: #e6bb20;
 
     /* ============================================================
        NUMBER FORMATTING
